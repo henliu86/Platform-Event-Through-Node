@@ -5,6 +5,9 @@ var express = require('express'),
 	bodyParser = require('body-parser');
 	//yaml = require('js-yaml');
 
+// set the port of our application
+// process.env.PORT lets the port be set by Heroku
+var port = process.env.PORT || 8080;
 
 var sfConn = new jsforce.Connection({});
 sfConn.login("henry@dreamforce.iot", "test1234", function(err, userInfo){
@@ -38,6 +41,11 @@ app.post('/FridgeEvent', function(req, res, next){
 });
 
 
-http.listen(80, function() {
-	console.log('listening on port 80');
+app.listen(port, function() {
+    console.log('Our app is running on http://localhost:' + port);
 });
+/*
+http.listen(3000, function() {
+	console.log('listening on port 3000');
+});
+*/
