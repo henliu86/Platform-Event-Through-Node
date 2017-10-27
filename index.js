@@ -38,6 +38,6 @@ app.post('/FridgeEvent', function(req, res, next){
 });
 
 
-//http.listen(3000, 'localhost', function() {
-//	console.log('listening on port 3000');
-//});
+http.listen(80, function() {
+	console.log('listening on port 80');
+});
