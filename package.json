@@ -1,0 +1,25 @@
+{
+  "name": "PlatformEventSender",
+  "version": "1.0.0",
+  "description": "A node app that push Platform Event into Salesforce",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henliu86/Platform-Event-Through-Node.git"
+  },
+  "author": "Henry Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henliu86/Platform-Event-Through-Node/issues"
+  },
+  "homepage": "https://github.com/henliu86/Platform-Event-Through-Node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsforce": "^1.8.0",
+    "request": "^2.83.0"
+  }
+}
