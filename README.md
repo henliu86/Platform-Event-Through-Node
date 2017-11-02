@@ -22,3 +22,15 @@ Once you have tested on local, you can deploy to heroku by doing
 	git commit -am "inital commit to heroku"
 	git push heroku master
 ```
+
+Create a Platform Event
+<img src="public/PlatformEvents.png" align="center" />
+
+Create a Context
+<img src="public/FridgeContext.png" align="center" />
+
+Create an Orchestration
+<img src="public/Orchestration.png" align="center" />
+
+Test pushing of Platform Event with workbench
+<img src="public/workbenchPlatformEvent.png" align="center" />
