@@ -23,14 +23,21 @@ Once you have tested on local, you can deploy to heroku by doing
 	git push heroku master
 ```
 
+
+
+
+### Following Section gives you an idea how to get started with a very simple Fridge user case in Salesforce IoT
 Create a Platform Event
 <img src="public/PlatformEvents.png" align="center" />
+
 
 Create a Context
 <img src="public/FridgeContext.png" align="center" />
 
+
 Create an Orchestration
 <img src="public/Orchestration.png" align="center" />
+
 
 Test pushing of Platform Event with workbench
 <img src="public/workbenchPlatformEvent.png" align="center" />
