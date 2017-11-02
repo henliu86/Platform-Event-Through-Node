@@ -2,6 +2,7 @@
 This is a node app that pushes Platform Events into Salesforce
 
 ### Installation
+Install npm package so you can use it in your terminal.
 
 ### Getting Started
 Run the following in the terminal
