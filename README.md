@@ -1,5 +1,5 @@
 # Platform-Event-Through-Node
-This is a node app that pushes Platform Events into Salesforce
+This is a node app that pushes Platform Events into Salesforce. Before deploying this, please take a look at how to enable and build Salesforce IoT in your developer org in the last section of this ReadMe.
 
 ### Installation
 Install npm package so you can use it in your terminal.
@@ -26,18 +26,24 @@ Once you have tested on local, you can deploy to heroku by doing
 
 
 
+
+
+
 ### Following Section gives you an idea how to get started with a very simple Fridge user case in Salesforce IoT
-Create a Platform Event
+Get a free developer org https://developer.salesforce.com/signup?d=70130000000td6N
+
+1) Create a Platform Event in Setup
 <img src="public/PlatformEvents.png" align="center" />
 
+2) Enable Salesforce IoT in Setup
 
-Create a Context
+3) Create a Context
 <img src="public/FridgeContext.png" align="center" />
 
 
-Create an Orchestration
+4) Create an Orchestration
 <img src="public/Orchestration.png" align="center" />
 
 
-Test pushing of Platform Event with workbench
+5) Test pushing of Platform Event with workbench
 <img src="public/workbenchPlatformEvent.png" align="center" />
