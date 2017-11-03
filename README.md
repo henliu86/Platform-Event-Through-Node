@@ -30,7 +30,7 @@ Once you have tested on local, you can deploy to heroku by doing
 
 
 ### Following Section gives you an idea how to get started with a very simple Fridge user case in Salesforce IoT
-Get a free developer org https://developer.salesforce.com/signup?d=70130000000td6N
+Get a free developer org https://developer.salesforce.com/signup
 
 1) Create a Platform Event in Setup
 <img src="public/PlatformEvents.png" align="center" />
