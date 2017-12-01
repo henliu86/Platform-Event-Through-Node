@@ -10,7 +10,7 @@ var port = process.env.PORT || 8080;
 
 //connect to salesforce
 var sfConn = new jsforce.Connection({});
-sfConn.login("henry@dreamforce.iot", "test1234", function(err, userInfo){
+sfConn.login("<username>", "<password>", function(err, userInfo){
 	if (err) { return console.error(err); }
 	console.log('logged into salesforce');
 });
